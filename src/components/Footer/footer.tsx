@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="container mx-auto flex flex-col sm:flex-row justify-between gap-10">
             <div className="flex-1">
                 <h2 className="text-2xl font-bold mb-4">G lovely</h2>
-                <p className="mb-2"><i className="fas fa-map-marker-alt"></i> Address : No 40 Baria Street 133/2, NewYork, USA.</p>
+                <p className="mb-2"><i className="fas fa-map-marker-alt"></i> Address : No 40 Baria Street 133/2, Pakistan, Karachi.</p>
                 <p className="mb-2 flex"> Phone<BsTelephoneFill size={20}/>
                 : +92 123 456 789</p>
                 <p className="mb-2 flex">Email <MdOutlineEmail size={20}/>: giftnaaz@gmail.com</p>
