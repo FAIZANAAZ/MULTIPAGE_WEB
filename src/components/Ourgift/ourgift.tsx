@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 const Sec3 = () => {
   return (
     <div>
@@ -17,9 +18,9 @@ const Sec3 = () => {
     <div className=" sm:w-[35%] md:w-[40%] lg:w-[400px] bg-white rounded-lg shadow-lg overflow-hidden flex flex-col justify-center items-center mb-4 sm:mb-0">
       <Image src={"/sec3 (1).jpg"} alt={"A small cactus in a turquoise pot"} width={400} height={400} className="object-cover w-full h-full"/>
       <div className="p-4 text-center bg-black hover:bg-yellow-200 hover:text-black cursor-pointer text-white w-full">
-        <h2 className="text-lg md:text-xl  font-bold">
+        <Link href={'/Product'}><h2 className="text-lg md:text-xl  font-bold">
           View more
-        </h2>
+        </h2></Link>
         <p className="mt-2 text-xs md:text-sm">
           These are the best  gift collections, with all varieties
         </p>
@@ -29,9 +30,9 @@ const Sec3 = () => {
     <div className="sm:w-[35%]  md:w-[40%] lg:w-[400px] bg-white rounded-lg shadow-lg overflow-hidden flex flex-col justify-center items-center mb-4 sm:mb-0">
       <Image src={"/sec3-2 (2).jpg"} alt={"A small cactus in a turquoise pot"} width={400} height={400} className="object-cover w-full h-full"/>
       <div className="p-4 text-center bg-black hover:bg-yellow-200 cursor-pointer hover:text-black text-white w-full">
-        <h2 className="text-lg md:text-xl  font-bold">
+      <Link href={'/Product'}><h2 className="text-lg md:text-xl  font-bold">
           View more
-        </h2>
+        </h2></Link>
         <p className="mt-2 text-xs md:text-sm">
           These are the best  gift collections, with all varieties
         </p>

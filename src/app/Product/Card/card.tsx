@@ -124,7 +124,7 @@ const CardSection: React.FC<CardSectionProps> = ({ items, heading }) => (
     <div className="flex flex-wrap gap-4 justify-center bg-white w-full">
       {items.map((item) => (
         <Link href={`/Product/${item.id}`} key={item.id}>
-          <div  className="flex flex-col gap-3 p-3 bg-white h-[350px] w-[100%] sm:w-[250px] md:w-[260px] lg:w-[300px] xl:w-[300px]">
+          <div data-aos="zoom-in"  className=" flex flex-col gap-3 p-3 bg-white h-[350px] w-[100%] sm:w-[250px] md:w-[260px] lg:w-[300px] xl:w-[300px]">
             <div className="overflow-hidden rounded-lg group flex justify-center items-center">
               <Image
                 src={item.picture}
